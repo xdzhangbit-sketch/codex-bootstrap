@@ -1,0 +1,8 @@
+# Deliberately minimal and portable.
+#
+# Do not copy a complete ~/.codex/config.toml into this repository: it contains
+# machine-specific paths, project trust state, and potentially sensitive data.
+# Add only stable, user-owned preferences here after reviewing them.
+
+# model = "your-preferred-model"
+# model_reasoning_effort = "medium"

@@ -1,0 +1,62 @@
+# Snapshot generated on 2026-08-16 from `codex plugin list`.
+#
+# `codex plugin add` installs from the currently configured marketplace snapshot;
+# it does not expose a version-pinning option. Treat `version` below as an audit
+# baseline, not a lockfile. Re-authorize connectors after installation.
+
+[[plugins]]
+id = "documents@openai-primary-runtime"
+version = "26.813.12317"
+kind = "runtime"
+
+[[plugins]]
+id = "pdf@openai-primary-runtime"
+version = "26.813.12317"
+kind = "runtime"
+
+[[plugins]]
+id = "spreadsheets@openai-primary-runtime"
+version = "26.813.12317"
+kind = "runtime"
+
+[[plugins]]
+id = "presentations@openai-primary-runtime"
+version = "26.813.12317"
+kind = "runtime"
+
+[[plugins]]
+id = "template-creator@openai-primary-runtime"
+version = "26.813.12317"
+kind = "runtime"
+
+[[plugins]]
+id = "sites@openai-bundled"
+version = "0.1.37"
+kind = "bundled"
+
+[[plugins]]
+id = "browser@openai-bundled"
+version = "26.810.52044"
+kind = "bundled"
+
+[[plugins]]
+id = "chrome@openai-bundled"
+version = "26.810.52044"
+kind = "bundled"
+
+[[plugins]]
+id = "visualize@openai-bundled"
+version = "1.0.21"
+kind = "bundled"
+
+[[plugins]]
+id = "google-calendar@openai-curated"
+version = "11c74d6b"
+kind = "connector"
+reauthorization_required = true
+
+[[plugins]]
+id = "slack@openai-curated"
+version = "11c74d6b"
+kind = "connector"
+reauthorization_required = true
