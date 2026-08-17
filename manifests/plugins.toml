@@ -50,6 +50,11 @@ version = "1.0.21"
 kind = "bundled"
 
 [[plugins]]
+id = "superpowers@openai-curated"
+version = "11c74d6b"
+kind = "methodology"
+
+[[plugins]]
 id = "google-calendar@openai-curated"
 version = "11c74d6b"
 kind = "connector"
